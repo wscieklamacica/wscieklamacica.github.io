@@ -39,7 +39,7 @@ window.mobileAndTabletcheck = function() {
 			state.className = 'fail';
 		} else {
 			state.className = 'success';
-			state.innerHTML = 'Zmień swoje zdjęcie profilowe:';
+			state.innerHTML = 'Zmień swoje zdjęcie, a później wrzuć je na swój profil:';
 		}
 		 
 		upload.onchange = function (e) {
